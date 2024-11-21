@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Motos 150 a 200 cc - NIKKI ROAD & RIDE</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>NIKKI ROAD & RIDE</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><button class="nav-button" onclick="window.open('index.html', '_self')">Inicio</button></li>
+                <li><button class="nav-button" onclick="showSection('motos')">Motos</button></li>
+                <li><button class="nav-button" onclick="showSection('wishlist')">Lista de Deseos</button></li>
+            </ul>
+        </nav>
+        <div class="login-container">
+            <button class="rounded-button" onclick="toggleLogin()">Iniciar Sesión</button>
+            <button class="rounded-button" onclick="toggleRegister()">Registrarse</button>
+        </div>
+    </header>
+
+    <main>
+        <section id="cilindraje-150-200">
+            <h2>Motos 150 a 200 cc</h2>
+            <div class="product-list">
+                <div class="product">
+                    <h3>Yamaha R15</h3>
+                    <p>Descripción del repuesto para Yamaha R15.</p>
+                    <p>Precio: $30</p>
+                    <button class="rounded-button" onclick="addToWishlist('Yamaha R15')">Añadir a la lista de deseos</button>
+                    <button class="rounded-button">Añadir al carrito</button>
+                    <div class="reviews">
+                        <span class="star-rating" onclick="rateProduct(this, 1)">⭐</span>
+                        <span class="star-rating" onclick="rateProduct(this, 2)">⭐</span>
+                        <span class="star-rating" onclick="rateProduct(this, 3)">⭐</span>
+                        <span class="star-rating" onclick="rateProduct(this, 4)">⭐</span>
+                        <span class="star-rating" onclick="rateProduct(this, 5)">⭐</span>
+                    </div>
+                </div>
+                <div class="product">
+                    <h3>KTM Duke 200</h3>
+                    <p>Descripción del repuesto para KTM Duke 200.</p>
+                    <p>Precio: $35</p>
+                    <button class="rounded-button" onclick="addToWishlist('KTM Duke 200')">Añadir a la lista de deseos</button>
+                    <button class="rounded-button">Añadir al carrito</button>
+                    <div class="reviews">
+                        <span class="star-rating" onclick="rateProduct(this, 1)">⭐</span>
+                        <span class="star-rating" onclick="rateProduct(this, 2)">⭐</span>
+                        <span class="star-rating" onclick="rateProduct(this, 3)">⭐</span>
+                        <span class="star-rating" onclick="rateProduct(this, 4)">⭐</span>
+                        <span class="star-rating" onclick="rateProduct(this, 5)">⭐</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="social-media">
+            <h2>Síguenos en:</h2>
+            <a href="https://www.facebook.com" target="_blank">Facebook</a>
+            <a href="https://www.instagram.com" target="_blank">Instagram</a>
+            <a href="https://www.tiktok.com" target="_blank">TikTok</a>
+        </div>
+        <div class="contact">
+            <h2>Contacto</h2>
+            <p>Número de teléfono: 123-456-7890</p>
+            <p>Atención por WhatsApp disponible.</p>
+        </div>
+        <p>&copy; 2024 NIKKI ROAD & RIDE. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+

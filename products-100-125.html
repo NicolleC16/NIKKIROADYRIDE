@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Motos 100 a 125 cc - NIKKI ROAD & RIDE</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>NIKKI ROAD & RIDE</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><button onclick="window.open('index.html', '_self')">Inicio</button>
+                </li>
+            </ul>
+        </nav>
+        <div class="login-container">
+            <button class="login" onclick="abrirVentanaRegistro()">Iniciar Sesión</button>
+    </header>
+
+    <main>
+        <section id="cilindraje-100-125">
+            <h2>Motos 100 a 125 cc</h2>
+            <div class="product-list">
+                <div class="product">
+                    <h3>Akt NKD</h3>
+                    <p>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjxlY-zWNzkvCUebTVljJZYFX2O4udlmgfuQ&s" alt="KIT DE ARRASTRE AKT 125 NKD " width="200" height="150" title="KIT DE ARRASTRE AKT 125 NKD">
+                    </p>
+                    <p>Precio: $150.000</p>
+                        <button class="rounded-button">Añadir al carrito</button>
+                    
+                </div>
+                <div class="product">
+                    <h3>BOXER CT 100</h3>
+                    <p>
+                        <img src="https://http2.mlstatic.com/D_NQ_NP_655074-MCO73593138296_122023-Y.webp" alt="TAPA GASOLINA BOXER CT 100" width="200" height="150" title="TAPA GASOLINA BOXER CT 100">
+                    </p>
+                    <p>Precio: $25.000</p>
+                    <button class="rounded-button" onclick="addToWishlist('FZ 150')">Añadir a la lista de deseos</button>
+                    <button class="rounded-button">Añadir al carrito</button>
+                    <div class="reviews">
+                        <span class="star-rating" onclick="rateProduct(this, 1)">⭐</span>
+                        <span class="star-rating" onclick="rateProduct(this, 2)">⭐</span>
+                        <span class="star-rating" onclick="rateProduct(this, 3)">⭐</span>
+                        <span class="star-rating" onclick="rateProduct(this, 4)">⭐</span>
+                        <span class="star-rating" onclick="rateProduct(this, 5)">⭐</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <div id="mapa">
+            <!-- Inserción de Google Maps -->
+        </div>
+        <div class="contact-info">
+            <p><strong>📱</strong>+57 (314) 2760017</p>
+            <p><strong>✉</strong> contacto@nikkiroad.com</p>
+            <div class="social">
+                <a href="whatsapp://send?phone=+57 (314) 2760017">
+                    <img src="https://i.pinimg.com/564x/cd/47/db/cd47db21186f31f0c1a16b65802200d7.jpg" alt="WhatsApp" width="30" height="30">
+                </a>
+        <p>&copy; 2024 NIKKI ROAD & RIDE. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src=" app.js "></script>
+</body>
+</html>
+
+

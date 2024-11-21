@@ -1,0 +1,171 @@
+/* Estilo general */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f0ff;
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Encabezado */
+header {
+    background-color: #b0d4e3;
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #333;
+}
+
+header h1 {
+    font-size: 24px;
+    color: #4a4a4a;
+}
+
+nav {
+    flex: 1; /* Para ocupar el espacio disponible */
+    display: flex;
+    justify-content: center; /* Centrar los elementos del nav */
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #4a4a4a;
+    font-weight: bold;
+    border: 2px solid black;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+/* Botón de inicio de sesión en la esquina superior derecha */
+button.login {
+    position: absolute;
+    top: 4px;
+    right: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #c49bff;
+    color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button.login:hover {
+    background-color: #b0a4e0;
+}
+
+/* Secciones individuales */
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 40px;
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+    background: url('section-bg.gif') center center/cover no-repeat; /* Cambia 'section-bg.gif' por tu imagen de fondo deseada */
+}
+
+#inicio {
+    background: url('inicio-bg.gif') center center/cover no-repeat;
+    color: #000;
+}
+
+#cilindrajes {
+    background: url('cilindrajes-bg.gif') center center/cover no-repeat;
+    color: #333;
+}
+
+#destacados {
+    background: url('destacados-bg.gif') center center/cover no-repeat;
+    color: #4a4a4a;
+}
+
+#promociones {
+    background: url('promociones-bg.gif') center center/cover no-repeat;
+    color: #555;
+}
+
+#motos {
+    background: url('motos-bg.gif') center center/cover no-repeat;
+    color: #666;
+}
+
+#accesorios {
+    background: url('accesorios-bg.gif') center center/cover no-repeat;
+    color: #777;
+}
+
+/* Estilos de formulario de autenticación */
+.auth-form {
+    margin: 20px 0;
+}
+
+.auth-form h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #333;
+    text-align: center;
+}
+
+form ul {
+    list-style: none;
+    padding: 0;
+}
+
+form ul li {
+    margin-bottom: 10px;
+}
+
+form label {
+    display: block;
+}
+
+form input, form select, form button {
+    padding: 8px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    width: 100%;
+}
+
+form button[type="submit"] {
+    background-color: #b0d4e3;
+    color: #333;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+form button[type="submit"]:hover {
+    background-color: #91c7e0;
+}
+
+/* Pie de página */
+footer {
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    background-color: #b0d4e3;
+    position: relative;
+}
+
+
+

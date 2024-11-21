@@ -1,0 +1,165 @@
+
+    <!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NIKKI ROAD & RIDE</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://www.dafont.com/es/foggy-cemetery.font">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Montserrat:wght@500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Barra de navegación -->
+    <header>
+        <h1>NIKKI ROAD & RIDE</h1>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio🏡</a></li>
+                <li><a href="#motos">Cilindrajes🏍</a></li>
+                <li><a href="#accesorios">Accesorios🏍</a></li>
+                <li><a href="#contacto">Contacto📱</a></li>
+                <li><a href="cart.html">carrito🛒</a></li>
+            </ul>
+            <!-- Botón para abrir la ventana de registro e inicio de sesión -->
+            <button class="login" onclick="abrirVentanaRegistro()">Iniciar Sesión</button>
+        </nav>
+    </header>
+
+    <button class="carrusel-arrow carrusel-prev" id="button-prev" data-button="button-prev"
+                onclick="app.processingButton(event)">
+                <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-left"
+                    class="svg-inline--fa fa-chevron-left fa-w-10" role="img" xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 320 512">
+                    <path fill="currentColor"
+                        d="M34.52 239.03L228.87 44.69c9.37-9.37 24.57-9.37 33.94 0l22.67 22.67c9.36 9.36 9.37 24.52.04 33.9L131.49 256l154.02 154.75c9.34 9.38 9.32 24.54-.04 33.9l-22.67 22.67c-9.37 9.37-24.57 9.37-33.94 0L34.52 272.97c-9.37-9.37-9.37-24.57 0-33.94z">
+                    </path>
+                </svg>
+            </button>
+           
+    <!-- Secciones del sitio... (Cilindrajes, Destacados, Promociones, etc.) -->
+    
+    <script src="app.js"></script>
+</body>
+</html>
+
+    <!-- Sección de Cilindrajes -->
+    <section id="motos">
+        <h2>Repuestos por Cilindraje</h2>
+        <div class="categoria">
+            <a href="products-100-125.html">
+                <img src="https://tumotoautecocali.wordpress.com/wp-content/uploads/2013/08/profiles_pngbg_082_platinosport100p3.jpg" alt="100cc a 125cc" width="200" height="150" title="100cc a 125cc">
+            </a>
+            
+            <a href="products-150-200.html">
+                <img src="https://www.zenexoutdoor.com.uy/wp-content/uploads/2020/01/bajaj-pulsar-ns-200-fiabs-portada-1024x683.jpg" alt="150cc a 200cc" width="200" height="150" title="150cc a 200cc">
+            </a>
+            <a href="products-250-400.html">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTIwSGetjsvwnW5ezdK4Tiu1rPrZ1vY4Armw&s" alt="100cc a 125cc" width="200" height="150" title="100cc a 125cc">
+            </a>
+            
+            <a href="products-600.html">
+                <img src="https://comprarmoto.com.ar/wp-content/uploads/2024/03/yamaha-yzf-r6-2012_03-600x450.jpg" alt="200cc a 150cc" width="200" height="150" title="150cc a 200cc">
+            </a>
+            </a>
+            <a href="especiales.html">
+                <img src="https://global.yamaha-motor.com/business/omdo/products/dt/img/dt_sl_003.jpg" alt="motos especiales" width="200" height="150" title="motos especiales">
+            </a>
+        </div>
+    </section>
+
+    <!-- Productos Destacados -->
+    <section id="destacados">
+        <h2>Productos Destacados</h2>
+        <div class="productos"
+        display: flex;>
+
+            <a href="Filtro de aire de la NS 200 FI $37.000">
+                <img src="https://bajajmatriz.com/wp-content/uploads/2016/09/JL581009-1.jpg" alt="Filtro de aire de la NS 200 FI" width="200" height="200" title="Filtro de aire de la NS 200 FI">
+                <p> Filtro de aire de la NS 200 FI $37.000 </p>
+            </a>
+            <a href="Filtro de aceite de NS 200 $22.000">
+                <img src="https://bajajmatriz.com/wp-content/uploads/2019/03/Captura-de-Pantalla-2023-07-04-a-las-15.23.38.png" alt="Filtro de aceite de NS 200 " width="200" height="200" title="Filtro de aceite de NS 200 ">
+                <p> Filtro de aceite de NS 200 $22.000 </p>
+            </a>
+            <a href="Bujia de Pulsar $18.000">
+                <img src="https://motohelp.com.co/wp-content/uploads/2023/03/BUJ0013-1-Copiar-rotated.jpg" alt="Bujia de Pulsar" width="200" height="200" title="Bujia de Pulsar">
+                <p> Bujia de Pulsar $18.000 </p>
+            </a>
+        </div>
+    </section>
+
+    <!-- Sección de Promociones -->
+    <section id="promociones">
+        <h2>Promociones</h2>
+        <a href="Super promo  "></a>
+        <div class="Promociones">
+            <div class="producto">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTulmgh11egcoHJGEYQGPP1q0OoWpfkARXSmERG9T7DxQz8RG7NgwELdqt3iH9wbV2W9U8&usqp=CAU" alt="Kit de arrastre de Gixxer 150 Original" width="200" height="200" title="Kit de arrastre de Gixxer 150 Original">
+                <p>Kit de arrastre de Gixxer 150 Original - $220.000 </p>
+            </div>
+            <div class="producto">
+                <a href="Super Promo "></a>
+                <img src="https://http2.mlstatic.com/D_NQ_NP_652318-MCO73021339691_112023-O.webp" alt="Arbol de levas de la CBF 125" width="200" height="200" title="Arbol de levas de la CBF 125">>
+                <p>Arbol de leva de CBF 125 VITRIX - $100.000</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Motos Especiales -->
+    <section id="motos">
+        <h2>Repuestos Motos Especiales</h2>
+        <div class="productos">
+            <div class="producto">
+                <img src="https://http2.mlstatic.com/D_NQ_NP_2X_653918-CBT78953991350_092024-T.webp" alt="Cilindro de la DT 175" width="200" height="150" title="Cilindro de la DT 175">
+                <p>Cilindro de DT 175 $400.000</p>
+            </div>
+            <div class="producto">
+                <img src="https://m.media-amazon.com/images/I/71LUaX6jdUL._AC_UF894,1000_QL80_.jpg" alt="Monoshock de KTM 1290 SUP ADV" width="350" height="150" title="Monoshock de KTM 1290 SUP ADV">
+                <p>Monoshock de KTM 1290 SUP ADV $1´400.000 </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Accesorios -->
+    <section id="accesorios">
+        <h2>Accesorios</h2>
+        <div class="productos">
+            <div class="producto">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKBhn3NgLD4fy7998AMMcPG4lWL2q3l3ufmg&s" alt="Maniguetas de Lujo" width="150" height="200" title="Maniguetas de Lujo">
+                <p>Maniguetas de Lujo- $75.000</p>
+            </div>
+            <div class="producto">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYWndLGNZPF-uuTPVRoKgFRLz4yPK9Wbtt5Q&s" alt="Espejos de Rizoma" width="200" height="150" title="Espejos de Rizoma">
+                <p>Espejos de Rizoma- $80.000</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mapa de Ubicación y Contacto -->
+     <h2>Ubiciación📍</h2>
+    <iframe src="https://www.google.com/maps/embed?pb=!4v1731113139878!6m8!1m7!1sdi6Kdo5cPKMHtaNVD9f16g!2m2!1d4.740128010714236!2d-74.09106999817175!3f78.43175057662371!4f-2.552284504634855!5f0.7820865974627469" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <div id="mapa">
+            <!-- Inserción de Google Maps -->
+        </div>
+        <div class="contact-info">
+            <p><strong>📱</strong>+57 (314) 2760017</p>
+            <p><strong>✉</strong> contacto@nikkiroad.com</p>
+            <div class="social">
+                <a href="whatsapp://send?phone=+57 (314) 2760017">
+                    <img src="https://i.pinimg.com/564x/cd/47/db/cd47db21186f31f0c1a16b65802200d7.jpg" alt="WhatsApp" width="30" height="30">
+                </a>
+                <!-- Links a otras redes sociales -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Scripts -->
+    <script src="app.js"></script>
+</body>
+</html>

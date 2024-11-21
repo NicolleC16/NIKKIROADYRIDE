@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro e Inicio de Sesión</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <section id="auth-section">
+        <h2>Iniciar Sesión / Crear Cuenta</h2>
+        
+        <!-- Sección de Inicio de Sesión -->
+        <div class="auth-form">
+            <h3>Iniciar Sesión</h3>
+            <form>
+                <ul>
+                    <li>
+                        <label for="login-correo">Correo Electrónico:</label>
+                        <input type="email" id="login-correo" name="login-correo" required>
+                    </li>
+                    <li>
+                        <label for="login-contraseña">Contraseña:</label>
+                        <input type="password" id="login-contraseña" name="login-contraseña" required>
+                    </li>
+                    <li>
+                        <button type="submit">Iniciar Sesión</button>
+                    </li>
+                </ul>
+            </form>
+        </div>
+
+        <!-- Sección de Crear Cuenta -->
+        <div class="auth-form">
+            <h3>Crear Cuenta</h3>
+            <form>
+                <ul>
+                    <li>
+                        <label for="nombre">Nombre Completo:</label>
+                        <input type="text" id="nombre" name="nombre" required>
+                    </li>
+                    <li>
+                        <label for="apellido">Apellido:</label>
+                        <input type="text" id="apellido" name="apellido" required>
+                    </li>
+                    <li>
+                        <label for="edad">Edad:</label>
+                        <input type="number" id="edad" name="edad" required>
+                    </li>
+                    <li>
+                        <label for="genero">Género:</label>
+                        <select id="genero" name="genero" required>
+                            <option value="masculino">Masculino</option>
+                            <option value="femenino">Femenino</option>
+                            <option value="otro">Otro</option>
+                        </select>
+                    </li>
+                    <li>
+                        <label for="correo">Correo Electrónico:</label>
+                        <input type="email" id="correo" name="correo" required>
+                    </li>
+                    <li>
+                        <label for="contraseña">Contraseña:</label>
+                        <input type="password" id="contraseña" name="contraseña" required>
+                    </li>
+                    <li>
+                        <button type="submit">Registrarse</button>
+                    </li>
+                </ul>
+            </form>
+        </div>
+    </section>
+</body>
+</html>
