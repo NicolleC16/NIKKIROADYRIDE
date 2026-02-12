@@ -11,7 +11,7 @@ body {
     color: #000;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: center;  
     justify-content: center;
 }
 
@@ -99,6 +99,7 @@ section {
     color: #4a4a4a;
 }
 
+
 #promociones {
     background: url('promociones-bg.gif') center center/cover no-repeat;
     color: #555;
@@ -107,6 +108,8 @@ section {
 #motos {
     background: url('motos-bg.gif') center center/cover no-repeat;
     color: #666;
+    display: flex;
+    justify-content: center;
 }
 
 #accesorios {
@@ -167,5 +170,8 @@ footer {
     position: relative;
 }
 
-
+#carrusel{
+    display: flex;
+    
+}
 

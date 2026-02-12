@@ -1,28 +1,36 @@
-
-    <!DOCTYPE html>
+   <!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NIKKI ROAD & RIDE</title>
+    <title>PERFUMES MC</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://www.dafont.com/es/foggy-cemetery.font">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Montserrat:wght@500;600&display=swap" rel="stylesheet">
 </head>
+<script>
+document.querySelectorAll(".product").forEach(function(item) {
+    var text = document.createElement("p");
+    text.textContent = item.getAttribute("data-name");
+    text.classList.add("product-name");
+    item.appendChild(text);
+});
+</script>
 
 <body>
 
     <!-- Barra de navegación -->
     <header>
-        <h1>NIKKI ROAD & RIDE</h1>
+        <h1>PERFUMES MANUCAR</h1>
         <nav>
             <ul>
                 <li><a href="#inicio">Inicio🏡</a></li>
-                <li><a href="#motos">Cilindrajes🏍</a></li>
-                <li><a href="#accesorios">Accesorios🏍</a></li>
-                <li><a href="#contacto">Contacto📱</a></li>
-                <li><a href="cart.html">carrito🛒</a></li>
+                <li><a href="#motos">TIPOS DE PERFUMES🏍</a></li>
+                <li><a href="#accesorios">OLORES</a></li>
+                <li><a href="#contacto">CONTACTO📱</a></li>
+                <li><a href="cart.html">CARRITO🛒</a></li>
+                <li><a href="nico.html">CARRITO🛒</a></li>
             </ul>
             <!-- Botón para abrir la ventana de registro e inicio de sesión -->
             <button class="login" onclick="abrirVentanaRegistro()">Iniciar Sesión</button>
@@ -38,7 +46,7 @@
                         d="M34.52 239.03L228.87 44.69c9.37-9.37 24.57-9.37 33.94 0l22.67 22.67c9.36 9.36 9.37 24.52.04 33.9L131.49 256l154.02 154.75c9.34 9.38 9.32 24.54-.04 33.9l-22.67 22.67c-9.37 9.37-24.57 9.37-33.94 0L34.52 272.97c-9.37-9.37-9.37-24.57 0-33.94z">
                     </path>
                 </svg>
-            </button>
+    </button>
            
     <!-- Secciones del sitio... (Cilindrajes, Destacados, Promociones, etc.) -->
     
@@ -49,34 +57,44 @@
     <!-- Sección de Cilindrajes -->
     <section id="motos">
         <h2>Repuestos por Cilindraje</h2>
-        <div class="categoria">
-            <a href="products-100-125.html">
-                <img src="https://tumotoautecocali.wordpress.com/wp-content/uploads/2013/08/profiles_pngbg_082_platinosport100p3.jpg" alt="100cc a 125cc" width="200" height="150" title="100cc a 125cc">
+        <div id="carrusel">
+            <a href="products-100-125.html"  id="card" class="product" data-name="Oud Saffron">
+                <img src="https://agaval.vtexassets.com/arquivos/ids/1271674-800-800?v=638343821279330000&width=800&height=800&aspect=true" alt="Oud Saffron" width="200" height="150" title="Oud Saffron">
+                <p>Oud Saffron</p>
+            </a>
+            <a href="products-150-200.html"class="product" data-name="Oud Saffron">
+                <img src="https://disfragancias.com/cdn/shop/products/Love-spell.jpg?v=1699806122" alt="CAMILO" width="200" height="150" title="Nicollle">
+                <p> Nicolle </p>
+            </a>
+
+             <a href="products-250-400.html" class="product" data-name="Orientica Royal Amber Eau De Parfum.">  
+                <img src="https://madeira.com.co/cdn/shop/products/6291106811568_1.jpg?v=1653521131" alt="Orientica Royal Amber Eau De Parfum" width="150" height="200" title="Orientica Royal Amber Eau De Parfum.">
+            <p> Orientica Royal Amber Eau De Parfum. </p>
+            </a>
+
+            <a href="products-600.html"class="product" data-name="Huele rico">
+                <img src="https://okperfumes.com/cdn/shop/articles/hermosa-botella-perfume-sobre-fondo-marmol-negro_1.jpg?v=1680858638" alt="200cc a 150cc" width="200" height="150" title="150cc a 200cc">
+            <P>Huele rico </P>
             </a>
             
-            <a href="products-150-200.html">
-                <img src="https://www.zenexoutdoor.com.uy/wp-content/uploads/2020/01/bajaj-pulsar-ns-200-fiabs-portada-1024x683.jpg" alt="150cc a 200cc" width="200" height="150" title="150cc a 200cc">
-            </a>
-            <a href="products-250-400.html">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTIwSGetjsvwnW5ezdK4Tiu1rPrZ1vY4Armw&s" alt="100cc a 125cc" width="200" height="150" title="100cc a 125cc">
+            <a href="especiales.html"class="product" data-name="Perfume original">
+                <img src="https://perfubarranquilla.com/cdn/shop/collections/descarga_1.jpg?v=1720314685&width=1500" alt="motos especiales" width="200" height="150" title="motos especiales">
+            <p>Perfme original</p>
             </a>
             
-            <a href="products-600.html">
-                <img src="https://comprarmoto.com.ar/wp-content/uploads/2024/03/yamaha-yzf-r6-2012_03-600x450.jpg" alt="200cc a 150cc" width="200" height="150" title="150cc a 200cc">
+            <a href="especiales.html"class="product" data-name="Perfume original">
+                <img src="https://flormayo.com/wp-content/uploads/2022/09/Perfumes-originales-de-hombre-_3.webp" alt="motos especiales" width="200" height="150" title="motos especiales">
+            <p>De hombre </p>
             </a>
-            </a>
-            <a href="especiales.html">
-                <img src="https://global.yamaha-motor.com/business/omdo/products/dt/img/dt_sl_003.jpg" alt="motos especiales" width="200" height="150" title="motos especiales">
-            </a>
+
         </div>
     </section>
 
     <!-- Productos Destacados -->
     <section id="destacados">
         <h2>Productos Destacados</h2>
-        <div class="productos"
-        display: flex;>
-
+        <div class="productos">
+  
             <a href="Filtro de aire de la NS 200 FI $37.000">
                 <img src="https://bajajmatriz.com/wp-content/uploads/2016/09/JL581009-1.jpg" alt="Filtro de aire de la NS 200 FI" width="200" height="200" title="Filtro de aire de la NS 200 FI">
                 <p> Filtro de aire de la NS 200 FI $37.000 </p>
@@ -161,5 +179,4 @@
 
     <!-- Scripts -->
     <script src="app.js"></script>
-</body>
 </html>

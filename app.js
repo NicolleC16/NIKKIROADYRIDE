@@ -9,6 +9,7 @@ document.querySelector("form").addEventListener("submit", function(event) {
     // Aquí se puede agregar funcionalidad para redirigir o limpiar el formulario si es necesario
 });
 
+
 // Función de pop-up flotante para WhatsApp
 const whatsappPopup = document.createElement("div");
 whatsappPopup.id = "whatsapp-popup";
