@@ -172,6 +172,7 @@ footer {
 
 #carrusel{
     display: flex;
-    
+img {
+    margin: 10px;
 }
-
+}
